@@ -6,7 +6,7 @@ export default async function Home() {
   const projects = await getProjects();
   return (
     <div>
-      <h1 className='text-7xl font-extrabold text-neutral-100'>Hello I'm <span className='bg-gradient-to-r from-purple-400 via-orange-300 to bg-red-500 bg-clip-text text-transparent'>Kinza</span>!</h1>
+      <h1 className='text-7xl font-extrabold text-neutral-100'>Hello I am <span className='bg-gradient-to-r from-purple-400 via-orange-300 to bg-red-500 bg-clip-text text-transparent'>Kinza</span>!</h1>
 
       <p className='mt-3 text-xl text-gray-200'>
         Thanks for visiting my website. Check out my projects:
